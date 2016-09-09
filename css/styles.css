@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1A242F;
   color: #FFFFFF;
 }
+
 /* End navbar Customisation */
 
 /* Start Button Customisation */
@@ -107,9 +108,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End Button Customisation */
 
+/* Start Jumbotron */
+.jumbotron {
+  /*background-image: url(../images/anabelle_laptop_sketch.jpg);*/
+  background-image: url(../images/kitty_and_desk_small.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 5px 5px #d3d3d3;
+}
+
+.jumbotron > h1, p {
+  text-shadow: 0.1em 0.1em 0.1em white;
+}
+
+/* End Jumbotron */
+
+/* Start footer */
+#footer-text {
+  text-shadow: none;
+}
+
+/* Start footer */
 /* Start Thumbnail customisation with effects */
 /*This bit makes the iamge slightly larger but is "choppy" */
-.thumbnail img:hover {
+.home-thumb img:hover {
   transform: scale(1.1);
 }
 
@@ -124,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2px;
 }
 
-/* Start Thumbnail customisation with effects */
+/* End Thumbnail customisation with effects */
 
 /* Navbar colours:;
 Navy Blue: #2C3E50;
@@ -146,15 +169,3 @@ BTN Success Hover Border: #11866F;
 BTN Default: #95A5A6;
 BTN Default Hover: #7F9293;
 BTN Default Hover Border: #74898A;
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) { ... }*/
-
-/* Medium devices (desktops, 992px and up) */
-/*@media (min-width: @screen-md-min) { ... }*/
-
-/* Large devices (large desktops, 1200px and up) */
-/*@media (min-width: @screen-lg-min) { ... }*/
