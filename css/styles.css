@@ -31,7 +31,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #18BC9C;
   background-color: transparent;
 }
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+  background-color: #1A242F; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #18BC9C;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #1A242F;
+  color: #FFFFFF;
+}
 /* End navbar Customisation */
+
+/* Start Button Customisation */
+
+/* End Button Customisation */
+
+
 /*
 Navy Blue: #2C3E50;
 Navy Blue Active (darker): #1A242F;
