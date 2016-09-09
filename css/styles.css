@@ -6,6 +6,14 @@
 body {
   padding: 70px;
 }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Baloo Bhaina', cursive;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
