@@ -14,6 +14,32 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Baloo Bhaina', cursive;
 }
+
+/* Customizing styling for navbar */
+.navbar-default {
+  background-color: #2C3E50;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #18BC9C;
+  background-color: transparent;
+}
+/* End navbar Customisation */
+/*
+Navy Blue: #2C3E50;
+Navy Blue Active (darker): #1A242F;
+Turquoise : #18BC9C;
+White: #FFFFFF;
+*/
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
