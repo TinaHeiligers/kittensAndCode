@@ -33,12 +33,12 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Active & Planned</li>
-                <li><a href="#">Active 1</a></li>
-                <li><a href="#">Active 2</a></li>
+                <li><a href="#">Active</a></li>
+                <li><a href="#">Planned</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Portfolio</li>
-                <li><a href="#">Portfolio 1</a></li>
-                <li><a href="#">Portfolio 2</a></li>
+                <li class="dropdown-header">Previous</li>
+                <li><a href="#">Previous 1</a></li>
+                <li><a href="#">Previous 2</a></li>
               </ul>
             </li>
             <li><a href="#">Contact</a></li>
@@ -48,6 +48,46 @@
       </div><!--END container-->
     </div><!--END navbar navbar-default navbar-fixed-top-->
     <!-- END Fixed navbar -->
+  
+  <!--START Jumbotron-->
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Kittens & Code Projects</h1>
+      <p>kittensandcode is my resource for learning how to get stuff done</p>
+      <a href="#" class="btn btn-primary">Kitten Stuff</a>
+      <a href="#" class="btn btn-primary">Code Stuff</a>
+    </div>
+  </div>
+  <!--START media rows-->
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="#" class="thumbnail">
+        <img src="images/kittens1.jpg" alt="Kitten">
+      </a>
+      <h3>Kitten Code 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+      <a href="#" class="btn btn-info">View</a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#" class="thumbnail">
+        <img src="images/kittens2.jpg" alt="Kitten2">
+      </a>
+      <h3>Project 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+      <a href="#" class="btn btn-info">View</a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#" class="thumbnail">
+        <img src="images/kittens3.jpg" alt="kitten3">
+      </a>
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+      <a href="#" class="btn btn-info">View</a>
+    </div>
+  </div>
+
+  <!--END media rows-->
+
     <!--START footer-->
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container">
@@ -63,9 +103,27 @@
     </div>
     <!--END footer-->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Bootstrap core JavaScript activated with jquery.
+    ========================== -->
+    <!-- Place at end to load pages faster -->
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog"> 
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact</h4>
+          </div>
+          <div class="modal-body">
+            <p>FOr general inquiries, please send an email to contact@kittensandcode.com</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END modal-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
