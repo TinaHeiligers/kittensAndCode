@@ -147,6 +147,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2px;
 }
 
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
+.carousel {
+  padding-bottom: 20px;
+}
 /* End Thumbnail customisation with effects */
 
 /* Navbar colours:;
