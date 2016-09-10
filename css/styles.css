@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 .thumbnail img {
   transition: all 0.3s ease 0s;
   width: 100%;
+  box-shadow: 0 0 10px 10px #d3d3d3;
 }
 
 .thumbnail {
@@ -152,7 +153,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 5px #d3d3d3;
+}
+
+.carousel-caption {
+  text-shadow: 0.1em 0.1em 0.1em black;
 }
 /* End Thumbnail customisation with effects */
 
