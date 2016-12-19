@@ -248,6 +248,158 @@ article[role="login"] p {
 }
 
 /*END Signup modal*/
+
+/*START payment styling*/
+input, select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border:0;
+  border-radius:0;
+  outline: none;
+}
+.credit-card-wrapper .credit-card {
+  -moz-box-shadow: 0px 0px 10px 2px #000;
+  -webkit-box-shadow: 0px 0px 10px 2px #000;
+  box-shadow: 0px 0px 10px 2px #000;
+  background: #3d89b8;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  height: 240px;
+  width: 388.32px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.credit-card-wrapper .front {
+  top: 100px;
+  left: 100px;
+  z-index:2;
+}
+.credit-card-wrapper .front .card-title {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 24px 0 0 24px;
+}
+
+.credit-card-wrapper .front .card-number {
+  padding: 12px 24px 0;
+}
+.credit-card-wrapper .front .card-number .card-number-label {
+  margin: 3px 0 6px;
+}
+.credit-card-wrapper .front .card-number input {
+  background: #306c92;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color:white;
+  font-size: 30px;
+  margin: 0 3px 0 0;
+  padding: 3px;
+  width: 70px;
+}
+.credit-card-wrapper .front .card-expiration > div {
+  float: left;
+  padding: 3px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-label {
+  padding-top: 32.4px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-month:after, .credit-card-wrapper .front .card-expiration .card-expiration-year:after {
+  position:absolute;
+  botton: 42px;
+  font-family: 'FontAwesome';
+  content: '\f063';
+  pointer-events: none;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-month: after {
+  left: 118px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-year: after {
+  left: 218px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-month-label {
+  margin-bottom: 6px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-year-label {
+  margin-bottom: 6px;
+}
+.credit-card-wrapper .front .card-expiration .card-expiration-slash {
+  font-size: 32px;
+  padding: 30.72px 6px;
+}
+.credit-card-wrapper .front .card-expiration select {
+  background: #3026c92;
+  border-radius: 4px;
+  border: 1px solid gray;
+  color: white;
+  font-size: 30px;
+  padding: 3px 12px 3px 8px;
+  width: 70px;
+}
+.credit-card-wrapper .back {
+  top: 70px;
+  left: 300px;
+  z-index: 1;
+}
+.credit-card-wrapper .back .magnetic-strip {
+  background: #111;
+  margin-top: 24px;
+  height: 60px;
+  width: 100%;
+}
+.credit-card-wrapper .back .credit-card-ccv {
+  text-align: right;
+}
+.credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-label {
+  padding: 12px 24px 6px;
+}
+.credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-strip {
+  margin: 0 24px;
+  height: 60px;
+  background: rgb(255, 255, 255, 0.4);
+}
+.credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-prefix {
+  color: black;
+  float: right;
+  font-size: 24px;
+  letter-spacing: 2.5px;
+  padding: 15px 12px;
+  -moz-transform: skew(10deg, 0);
+  -o-transform: skew(10deg, 0);
+  -webkit-transform: skew(10deg, 0);
+  transform: skew(10deg, 0);
+}
+.credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-box {
+  background: white;
+  position: absolute;
+  top: 125px;
+  right: 29px;
+  content: '';
+  border-radius: 4px;
+  border: 1px solid gray;
+  height: 46px;
+  width: 80px;
+}
+
+.credit-card-wrapper .back .credit-card-ccv input {
+  float: right;
+  background: transparent;
+  border-radius: 4px;
+  color: black;
+  font-size: 26px;
+  margin: 6px 0 0 0;
+  padding: 8px;
+  width: 70px;
+  -moz-transform: skew(10deg, 0);
+  -o-transform: skew(10deg, 0);
+  -webkit-transform: skew(10deg, 0);
+  transform: skew(10deg, 0);
+}
+/*END payment styling*/
+
 /* Start footer */
 #footer-text {
   text-shadow: none;

@@ -7,11 +7,9 @@
     <meta name="description" content="Following bootstrap tutorials">
     <meta name="author" content="kittensandcode.com">
     <title>Kittens And Code</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
-    <!--Using newer version of fontawesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"  rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <div class="container">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -65,99 +63,71 @@
         </div><!--END /.nav-collapse-->
       </div><!--END container-->
     </div><!--END navbar navbar-default navbar-fixed-top-->
-    <!-- END Fixed navbar -->
-  
-  <!--START Carousel Section-->
-  <div class="container">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!--START Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-    <!--END Indicators-->
-    <!--START Wrapper for Slides-->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="images/cats_on_couch_1200x315.jpg" alt="Cats on couch">
-          <div class="carousel-caption">
-            <h3>Comfy Cats</h3>
-          </div>
-      </div>
-      <div class="item">
-        <img src="images/J_on_wall.jpg" alt="Cat on wall">
-          <div class="carousel-caption">
-            <h3>Cats Rule!</h3>
-          </div>
-      </div>
-      <div class="item">
-        <img src="images/cats_in_grass.jpg" alt="Cats in grass">
-          <div class="carousel-caption">
-            <h3>Afternoon Lazyness</h3>
-          </div>
+<h5>Get my goodies!</h5>
+<div class="credit-card-wrapper">
+  <div class="credit-card front">
+    <div class="card-title">CREDIT CARD</div>
+
+    <div class="card-number">
+      <div class="card-number-label">CARD NUMBER</div>
+      <div class="card-numbers">
+        <input type="text" class="tbx-number-0" maxlength='4' />
+        <input type="text" class="tbx-number-1" maxlength='4' />
+        <input type="text" class="tbx-number-2" maxlength='4' />
+        <input type="text" class="tbx-number-3" maxlength='4' />
       </div>
     </div>
-    <!--END Wrapper for Slides-->
-    <!--START Controlls-->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-    </div>
-    <!--END Controlls-->
-    
-    <!--START Carousel Propper-->
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="kitten.html" class="thumbnail home-thumb">
-          <img src="images/kittens1.jpg" alt="Kitten1">
-        </a>
-        <h3>For Kittens</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="kitten.html" class="btn btn-info">View</a>
+
+    <div class="card-expiration">
+      <div class="card-expiration-label">
+        <div>VALID</div>
+        <div>THRU</div>
       </div>
-      <div class="col-sm-4">
-        <a href="queen.html" class="thumbnail home-thumb">
-          <img src="images/kittens2.jpg" alt="Kitten2">
-        </a>
-        <h3>For Queens</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="queen.html" class="btn btn-info">View</a>
+      <div class="card-expiration-month">
+        <div class="card-expiration-month-label">MONTH</div>
+        <select class='drp-expiration-month'>
+          <option value="01">01</option>
+          <option value="02">03</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select> 
       </div>
-      <div class="col-sm-4">
-        <a href="tom.html" class="thumbnail home-thumb">
-          <img src="images/kittens3.jpg" alt="kitten3">
-        </a>
-        <h3>For Tom Cats</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
-        <a href="tom.html" class="btn btn-info">View</a>
+      <div class="card-expiration-slash">/</div>
+      <div class="card-expiration-year">
+        <div class="card-expiration-year-label">YEAR</div>
+        <select class='drp-expiration-year'>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+        </select>
       </div>
     </div>
+  </div>
+  <div class="credit-card back unfocused">
+     <div class="magnetic-strip"></div>
+    <div class="credit-card-ccv">
+      <div class="credit-card-ccv-label">CCV CODE</div>
+      <div class="credit-card-ccv-strip">
+        <div class="credit-card-ccv-box"></div>
+        <input type="text" class="tbx-ccv"  maxlength='4'/>
+        <div class="credit-card-ccv-prefix">XXXX</div>
+      </div>
+    </div>
+  </div>
 </div>
-  
-  <!--END Carousel Propper-->
-  <!--END Carousel Section-->
 
-<!--GETS REPLACED BY CAROUSEL SECTION-->
-  <!--START Jumbotron-->
-  <!-- <div class="container">
-    <div class="jumbotron text-center">
-      <h1>Kittens And Code</h1>
-      <p>Learning to Program DIY Resources</p>
-      <a href="#" class="btn btn-primary">Code Examples</a>
-      <a href="#" class="btn btn-success">Resources</a>
-    </div>
-  </div> -->
-  
-
-  <!--END media rows-->
-
-<!--END REPLACMENT BY CAROUSEL SECTION-->
-
-    <!--START footer-->
+<!--START footer-->
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
       <div class="container">
         <div class="navbar-text pull-left">
