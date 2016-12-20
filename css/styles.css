@@ -250,6 +250,9 @@ article[role="login"] p {
 /*END Signup modal*/
 
 /*START payment styling*/
+h3 .paynow {
+  margin-bottom: 20px;
+}
 input, select {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
@@ -274,7 +277,7 @@ input, select {
   transition: all 1s ease;
 }
 .credit-card-wrapper .front {
-  top: 130px;
+  top: 180px;
   left: 100px;
   z-index:2;
 }
@@ -342,7 +345,7 @@ input, select {
 }
 .credit-card-wrapper .back {
   background: #367BA5;
-  top: 100px;
+  top: 150px;
   left: 300px;
   z-index: 1;
 }
