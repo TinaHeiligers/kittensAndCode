@@ -359,16 +359,18 @@ input, select {
   padding: 12px 24px 6px;
 }
 .credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-strip {
-  margin: 0 24px;
-  height: 60px;
-  background: rgb(255, 255, 255, 0.4);
+  /*margin: 0 20px;*/
+  height: 51px;
+  /*background: #367BA5;*/
+  background: #24526E;
 }
 .credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-prefix {
   color: black;
   float: right;
+
   font-size: 24px;
   letter-spacing: 2.5px;
-  padding: 15px 12px;
+  padding: 20px 40px;
   -moz-transform: skew(5deg, 0);
   -o-transform: skew(5deg, 0);
   -webkit-transform: skew(5deg, 0);
