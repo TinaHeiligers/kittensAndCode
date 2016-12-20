@@ -274,7 +274,7 @@ input, select {
   transition: all 1s ease;
 }
 .credit-card-wrapper .front {
-  top: 100px;
+  top: 130px;
   left: 100px;
   z-index:2;
 }
@@ -305,14 +305,15 @@ input, select {
   padding: 3px;
 }
 .credit-card-wrapper .front .card-expiration .card-expiration-label {
-  padding-top: 32.4px;
+  padding-top: 32px;
+  padding-left: 25px;
 }
 .credit-card-wrapper .front .card-expiration .card-expiration-month:after, .credit-card-wrapper .front .card-expiration .card-expiration-year:after {
-  position:absolute;
-  botton: 42px;
+  /*position:absolute;*/
+  /*bottom: 42px;
   font-family: 'FontAwesome';
   content: '\f063';
-  pointer-events: none;
+  pointer-events: none;*/
 }
 .credit-card-wrapper .front .card-expiration .card-expiration-month: after {
   left: 118px;
@@ -328,10 +329,10 @@ input, select {
 }
 .credit-card-wrapper .front .card-expiration .card-expiration-slash {
   font-size: 32px;
-  padding: 30.72px 6px;
+  padding: 30px 6px;
 }
 .credit-card-wrapper .front .card-expiration select {
-  background: #3026c92;
+  background: #326c92;
   border-radius: 4px;
   border: 1px solid gray;
   color: white;
@@ -340,7 +341,8 @@ input, select {
   width: 70px;
 }
 .credit-card-wrapper .back {
-  top: 70px;
+  background: #367BA5;
+  top: 100px;
   left: 300px;
   z-index: 1;
 }
@@ -367,16 +369,17 @@ input, select {
   font-size: 24px;
   letter-spacing: 2.5px;
   padding: 15px 12px;
-  -moz-transform: skew(10deg, 0);
-  -o-transform: skew(10deg, 0);
-  -webkit-transform: skew(10deg, 0);
-  transform: skew(10deg, 0);
+  -moz-transform: skew(5deg, 0);
+  -o-transform: skew(5deg, 0);
+  -webkit-transform: skew(5deg, 0);
+  transform: skew(5deg, 0);
 }
 .credit-card-wrapper .back .credit-card-ccv .credit-card-ccv-box {
   background: white;
   position: absolute;
+  margin-left: 250px;
   top: 125px;
-  right: 29px;
+  right: 20px;
   content: '';
   border-radius: 4px;
   border: 1px solid gray;
@@ -393,10 +396,10 @@ input, select {
   margin: 6px 0 0 0;
   padding: 8px;
   width: 70px;
-  -moz-transform: skew(10deg, 0);
-  -o-transform: skew(10deg, 0);
-  -webkit-transform: skew(10deg, 0);
-  transform: skew(10deg, 0);
+  -moz-transform: skew(5deg, 0);
+  -o-transform: skew(5deg, 0);
+  -webkit-transform: skew(5deg, 0);
+  transform: skew(5deg, 0);
 }
 /*END payment styling*/
 
